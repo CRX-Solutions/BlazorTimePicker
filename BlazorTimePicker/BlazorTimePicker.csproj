@@ -8,6 +8,8 @@
     <Company>CRX Solutions Malta</Company>
     <Description>BlazorTimePicker is aimed facilitate time picking functionality for Blazor applications. By default it will be styled using the Boostrap classes but one can easily pass custom css class to all elements of the component.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/CRX-Solutions/BlazorTimePicker</RepositoryUrl>
+    <PackageTags>blazor, component,  timepicker</PackageTags>
   </PropertyGroup>
 
 
