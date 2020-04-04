@@ -1,0 +1,44 @@
+﻿<div class="@ContainerClass">
+    <div class="@RowClass">
+        <div class="@ColumnClass">
+            <select class="@SelectClass" @onchange="@((e) => OnChange(e, true))">
+                @for (var h = StartTime.Hours; h <= 23; h++)
+                {
+                    <option value="@h" selected="@(Time.Hours == h)">@h.ToString("00")</option>
+                }
+            </select>
+        </div>
+
+        <div class="@ColumnClass">
+            <select class="@SelectClass" @onchange="@((e) => OnChange(e, false))">
+                @for (var m = 0; m <= 59; m = m + MinutesSteps)
+                {
+                    <option value="@m" selected="@(Time.Minutes == m)">@m.ToString("00")</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    [Parameter] public TimeSpan Time { get; set; } = TimeSpan.Zero;
+    [Parameter] public int MinutesSteps { get; set; } = 5;
+    [Parameter] public TimeSpan StartTime { get; set; } = TimeSpan.Zero;
+
+    [Parameter] public string ContainerClass { get; set; } = "container";
+    [Parameter] public string RowClass { get; set; } = "row"; //two fields
+    [Parameter] public string ColumnClass { get; set; } = "col-sm"; //column
+    [Parameter] public string SelectClass { get; set; } = "form-control"; //ui fluid dropdown
+
+    [Parameter] public EventCallback<TimeSpan> OnTimeChange { get; set; }
+
+    void OnChange(ChangeEventArgs e, bool hours)
+    {
+        Time = (hours)
+            ? TimeSpan.Parse($"{e.Value}:{Time.Minutes}")
+            : TimeSpan.Parse($"{((StartTime != TimeSpan.Zero && Time.Hours < StartTime.Hours) ? StartTime.Hours : Time.Hours)}:{e.Value}");
+
+        OnTimeChange.InvokeAsync(Time);
+    }
+}

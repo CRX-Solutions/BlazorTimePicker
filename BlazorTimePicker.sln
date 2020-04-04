@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTimePicker", "BlazorTimePicker\BlazorTimePicker.csproj", "{C81F091A-560D-4952-B03D-6C6C36A765F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C81F091A-560D-4952-B03D-6C6C36A765F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81F091A-560D-4952-B03D-6C6C36A765F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81F091A-560D-4952-B03D-6C6C36A765F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81F091A-560D-4952-B03D-6C6C36A765F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC405C1F-7EA6-4429-96F8-FD74158E5D27}
+	EndGlobalSection
+EndGlobal
