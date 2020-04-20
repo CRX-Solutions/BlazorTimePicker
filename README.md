@@ -5,8 +5,7 @@ Time picker for Blazor.
 This component is still in development and is not completely finished yet.
 
 ## Installation
-![NuGet BlazorTimePicker](https://img.shields.io/nuget/dt/BlazorTimePicker.svg)
-[![NuGet BlazorTimePicker](https://img.shields.io/nuget/dt/BlazorTimePicker.svg)](https://www.nuget.org/packages/BlazorTimePicker)
+[NuGet BlazorTimePicker](https://www.nuget.org/packages/BlazorTimePicker)
 
 1. Download and install the BlazorTimePicker package from NuGet
 
@@ -16,6 +15,13 @@ This component is still in development and is not completely finished yet.
 
 ### Parameters
 
-Parameter Name|Data Type|Description
+Parameter Name|Data Type|Default|Description
 --------------|---------|-----------
-Time|TimeSpan|The initial time you want the BlazorTimePicker set to
+Time|TimeSpan|0|The initial time you want the BlazorTimePicker be set to
+MinutesSteps|int|5|
+StartTime|TimeSpan|0|
+ContainerClass|string|"container"|
+RowClass|string|"row"|
+ColumnClass|string|"col-sm"|
+SelectClass|string|"form-control"|
+OnTimeChange|EventCallback<TimeSpan>||
