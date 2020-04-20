@@ -15,7 +15,7 @@ This component is still in development and is not completely finished yet.
 
 Parameter Name|Default Value|Description
 --------------|-------------|-----------
-Time [TimeSpan]|0|Initial time you want the BlazorTimePicker to be set to
+Time [TimeSpan]|0|Initial time you want the BlazorTimePicker to be set to\Default value: 0
 MinutesSteps [int]|5|Minute interval
 StartTime [TimeSpan]|0|From which time you want the BlazorTimePicker to start from *e.g. when you have 'Time From' and 'Time To' and you want the 'Time To' to start from the selected 'Time From'*
 ContainerClass [string]|"container"|
