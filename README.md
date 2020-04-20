@@ -15,14 +15,14 @@ This component is still in development and is not completely finished yet.
 
 Parameter Name|Description
 --------------|-----------
-**Time**<br/>[TimeSpan]|Initial time you want the BlazorTimePicker to be set to<br/>Default value: 0<br/>Example: `Time="@(new TimeSpan(8,30,0))`
-**MinutesSteps**<br/>[int]|Minute interval<br/>Default value: 5<br/>Example: `MinutesSteps="10"`
-**StartTime**<br/>[TimeSpan]|From which time you want the BlazorTimePicker to start from *e.g. when you have 'Time From' and 'Time To' and you want the 'Time To' to start from the selected 'Time From'*<br/>Default value: 0<br/>Example: `StartTime="@(new TimeSpan(12,45,0))`
-**ContainerClass**<br/>[string]|<br/>Default value: "container"<br/>Example: `ContainerClass="container"`
-**RowClass**<br/>[string]|<br/>Default value: "row"<br/>Example: `RowClass="two fields"`
-**ColumnClass**<br/>[string]|<br/>Default value: "col-sm"<br/>Example: `ColumnClass="column"`
-**SelectClass**<br/>[string]|<br/>Default value: "form-control"<br/>Example: `SelectClass="ui fluid dropdown"`
-**OnTimeChange**<br/>[`EventCallback<TimeSpan>`]|<br/>Default value: N/A<br/>Example: N/A
+**Time**<br/>[TimeSpan]|Initial time you want the BlazorTimePicker to be set to<br/><br/>**Default value:** 0<br/>**Example:** `Time="@(new TimeSpan(8,30,0))`
+**MinutesSteps**<br/>[int]|Minute interval<br/><br/>**Default value:** 5<br/>**Example:** `MinutesSteps="10"`
+**StartTime**<br/>[TimeSpan]|From which time you want the BlazorTimePicker to start from *e.g. when you have 'Time From' and 'Time To' and you want the 'Time To' to start from the selected 'Time From'*<br/><br/>**Default value:** 0<br/>**Example:** `StartTime="@(new TimeSpan(12,45,0))`
+**ContainerClass**<br/>[string]|<br/><br/>**Default value:** "container"<br/>**Example:** `ContainerClass="container"`
+**RowClass**<br/>[string]|<br/><br/>**Default value:** "row"<br/>**Example:** `RowClass="two fields"`
+**ColumnClass**<br/>[string]|<br/><br/>**Default value:** "col-sm"<br/>**Example:** `ColumnClass="column"`
+**SelectClass**<br/>[string]|<br/><br/>**Default value:** "form-control"<br/>**Example:** `SelectClass="ui fluid dropdown"`
+**OnTimeChange**<br/>[`EventCallback<TimeSpan>`]|<br/><br/>**Default value:** N/A<br/>**Example:** N/A
 
 ### Examples
 Description|Example
