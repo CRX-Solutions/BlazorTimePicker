@@ -25,4 +25,6 @@ Parameter Name|Description
 **OnTimeChange**<br/>[`EventCallback<TimeSpan>`]|<br/>Default value: N/A
 
 ### Examples
-`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"></CRXTimePicker>`
+Description|Example
+-----------|-------
+Setting initial time|`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"></CRXTimePicker>`
