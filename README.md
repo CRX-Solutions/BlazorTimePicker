@@ -28,3 +28,7 @@ Parameter Name|Description
 Description|Example
 -----------|-------
 Setting initial time|`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"></CRXTimePicker>`
+
+## Contribution & Feedback
+Please feel free to use this component and do not hesitate to open an issue should you encouter any.
+You are more then welcome to share your feedback with us regarding this component.
