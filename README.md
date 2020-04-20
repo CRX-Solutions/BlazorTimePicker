@@ -15,14 +15,14 @@ This component is still in development and is not completely finished yet.
 
 Parameter Name|Description
 --------------|-----------
-Time [TimeSpan]|Initial time you want the BlazorTimePicker to be set to<br/>Default value: 0
-MinutesSteps [int]|Minute interval<br/>Default value: 5
-StartTime [TimeSpan]|From which time you want the BlazorTimePicker to start from *e.g. when you have 'Time From' and 'Time To' and you want the 'Time To' to start from the selected 'Time From'*<br/>Default value: 0
-ContainerClass [string]|<br/>Default value: "container"
-RowClass [string]|<br/>Default value: "row"
-ColumnClass [string]|<br/>Default value: "col-sm"
-SelectClass [string]|<br/>Default value: "form-control"
-OnTimeChange [`EventCallback<TimeSpan>`]|<br/>Default value: N/A
+**Time**<br/>[TimeSpan]|Initial time you want the BlazorTimePicker to be set to<br/>Default value: 0
+**MinutesSteps**<br/>[int]|Minute interval<br/>Default value: 5
+**StartTime**<br/>[TimeSpan]|From which time you want the BlazorTimePicker to start from *e.g. when you have 'Time From' and 'Time To' and you want the 'Time To' to start from the selected 'Time From'*<br/>Default value: 0
+**ContainerClass**<br/>[string]|<br/>Default value: "container"
+**RowClass**<br/>[string]|<br/>Default value: "row"
+**ColumnClass**<br/>[string]|<br/>Default value: "col-sm"
+**SelectClass**<br/>[string]|<br/>Default value: "form-control"
+**OnTimeChange**<br/>[`EventCallback<TimeSpan>`]|<br/>Default value: N/A
 
 ### Examples
 `<CRXTimePicker Time="@(new TimeSpan(8,30,0))"></CRXTimePicker>`
