@@ -16,7 +16,7 @@ This component is still in development and is not completely finished yet.
 ### Parameters
 
 Parameter Name|Data Type|Default|Description
---------------|---------|-----------
+--------------|---------|-------|-----------
 Time|TimeSpan|0|The initial time you want the BlazorTimePicker be set to
 MinutesSteps|int|5|
 StartTime|TimeSpan|0|
