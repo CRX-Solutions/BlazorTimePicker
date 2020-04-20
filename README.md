@@ -1,5 +1,5 @@
 # BlazorTimePicker
-Time picker for Blazor.
+Time picker for Blazor developed by **CRX Solutions**.
 
 ## Notice
 This component is still in development and is not completely finished yet.
