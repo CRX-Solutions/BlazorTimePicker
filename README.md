@@ -24,4 +24,4 @@ ContainerClass|string|"container"|
 RowClass|string|"row"|
 ColumnClass|string|"col-sm"|
 SelectClass|string|"form-control"|
-OnTimeChange|EventCallback<TimeSpan>||
+OnTimeChange|`EventCallback<TimeSpan>`||
