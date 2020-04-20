@@ -5,9 +5,7 @@ Time picker for Blazor.
 This component is still in development and is not completely finished yet.
 
 ## Installation
-[NuGet BlazorTimePicker](https://www.nuget.org/packages/BlazorTimePicker)
-
-1. Download and install the BlazorTimePicker package from NuGet
+1. [Download](https://www.nuget.org/packages/BlazorTimePicker) and install the BlazorTimePicker package from NuGet
 
 ## Usage
 1. In **_imports.razor** file add the following using reference `@using BlazorTimePicker`
