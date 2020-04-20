@@ -15,13 +15,13 @@ This component is still in development and is not completely finished yet.
 
 ### Parameters
 
-Parameter Name|Data Type|Default|Description
---------------|---------|-------|-----------
-Time|TimeSpan|0|The initial time you want the BlazorTimePicker be set to
-MinutesSteps|int|5|
-StartTime|TimeSpan|0|
+Parameter Name|Data Type|Default Value|Description
+--------------|---------|-------------|-----------
+Time|TimeSpan|0|Initial time you want the BlazorTimePicker to be set to
+MinutesSteps|int|5|Minute interval
+StartTime|TimeSpan|0|From which time you want the BlazorTimePicker to start from *e.g. when you have Time From and Time To*
 ContainerClass|string|"container"|
 RowClass|string|"row"|
 ColumnClass|string|"col-sm"|
 SelectClass|string|"form-control"|
-OnTimeChange|`EventCallback<TimeSpan>`||
+OnTimeChange|`EventCallback<TimeSpan>`|N/A|
