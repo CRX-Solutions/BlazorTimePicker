@@ -10,7 +10,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/CRX-Solutions/BlazorTimePicker</RepositoryUrl>
     <PackageTags>blazor, component,  timepicker</PackageTags>
-    <Version>1.1.6</Version>
+    <Version>1.1.7</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 
