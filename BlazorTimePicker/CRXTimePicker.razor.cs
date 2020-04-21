@@ -31,15 +31,15 @@ namespace BlazorTimePicker
 
 
         [Parameter]
-        public EventCallback<TimeSpan> OnTimeChange { get; set; }
+        public EventCallback<TimeSpan> TimeChanged { get; set; }
 
-        protected void OnChange(ChangeEventArgs e, bool hours)
+        protected void OnTimeChanged(ChangeEventArgs e, bool hours)
         {
             Time = (hours)
                 ? TimeSpan.Parse($"{e.Value}:{Time.Minutes}")
                 : TimeSpan.Parse($"{((StartTime != TimeSpan.Zero && Time.Hours < StartTime.Hours) ? StartTime.Hours : Time.Hours)}:{e.Value}");
 
-            OnTimeChange.InvokeAsync(Time);
+            TimeChanged.InvokeAsync(Time);
         }
     }
 }

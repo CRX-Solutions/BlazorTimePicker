@@ -1,7 +1,7 @@
 ﻿<div class="@ContainerClass">
     <div class="@RowClass">
         <div class="@ColumnClass">
-            <select class="@SelectClass" @onchange="@((e) => OnChange(e, true))">
+            <select class="@SelectClass" @onchange="@((e) => OnTimeChanged(e, true))">
                 @for (var h = StartTime.Hours; h <= 23; h++)
                 {
                     <option value="@h" selected="@(Time.Hours == h)">@h.ToString("00")</option>
@@ -10,7 +10,7 @@
         </div>
 
         <div class="@ColumnClass">
-            <select class="@SelectClass" @onchange="@((e) => OnChange(e, false))">
+            <select class="@SelectClass" @onchange="@((e) => OnTimeChanged(e, false))">
                 @for (var m = 0; m <= 59; m = m + MinutesSteps)
                 {
                     <option value="@m" selected="@(Time.Minutes == m)">@m.ToString("00")</option>
