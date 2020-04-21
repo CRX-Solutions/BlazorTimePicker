@@ -1,6 +1,4 @@
-![Nuget](https://img.shields.io/nuget/dt/BlazorTimePicker)
-
-# BlazorTimePicker
+# BlazorTimePicker ![BlazorTimePicker Nuget Package](https://img.shields.io/nuget/dt/BlazorTimePicker)
 Time picker for Blazor developed by **CRX Solutions**.
 
 ## Description
