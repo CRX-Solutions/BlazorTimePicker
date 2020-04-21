@@ -29,11 +29,7 @@ Description|Example
 -----------|-------
 Setting initial time|`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"></CRXTimePicker>`
 Setting initial time and minutes interval|`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"MinutesSteps="15" ></CRXTimePicker>`
-Two way data binding for Time property|```@code{
-      private TimeSpan timeTo;
-    }
-    <CRXTimePicker @bind-Time"@timeTo"></CRXTimePicker>
-    ```
+Two way data binding for Time property|`@code {`<br/>`    private TimeSpan timeTo;`<br/>`}`<br/>`<CRXTimePicker @bind-Time"@timeTo"></CRXTimePicker>`
 
 ## Contribution & Feedback
 Please feel free to use this component and do not hesitate to open an issue should you encouter any.
