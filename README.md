@@ -22,7 +22,7 @@ Parameter Name|Description
 **RowClass**<br/>[string]|<br/><br/>**Default value:** "row"<br/>**Example:** `RowClass="two fields"`
 **ColumnClass**<br/>[string]|<br/><br/>**Default value:** "col-sm"<br/>**Example:** `ColumnClass="column"`
 **SelectClass**<br/>[string]|<br/><br/>**Default value:** "form-control"<br/>**Example:** `SelectClass="ui fluid dropdown"`
-**OnTimeChange**<br/>[`EventCallback<TimeSpan>`]|<br/><br/>**Default value:** N/A<br/>**Example:** N/A
+**TimeChanged**<br/>[`EventCallback<TimeSpan>`]|<br/><br/>**Default value:** N/A<br/>**Example:** N/A
 
 ### Examples
 Description|Example
