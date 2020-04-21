@@ -5,7 +5,7 @@ Time picker for Blazor developed by **CRX Solutions**.
 This is a component that will facilitate time picking in a Blazor project. By default it is designed to use the Bootstrap styling. But you can pass your own CSS classes through the following parameters (ContainerClass, RowClass, ColumnClass, and SelectClass)
 
 ```
-<div class="**<ContainerClass>**">
+<div class="**ContainerClass**">
 </div>
 ```
 
