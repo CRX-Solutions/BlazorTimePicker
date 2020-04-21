@@ -48,6 +48,20 @@ Setting initial time|`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"></CRXTimePic
 Setting initial time and minutes interval|`<CRXTimePicker Time="@(new TimeSpan(8,30,0))"MinutesSteps="15" ></CRXTimePicker>`
 Two way data binding for Time property|`@code {`<br/>`    private TimeSpan timeTo;`<br/>`}`<br/>`<CRXTimePicker @bind-Time"@timeTo"></CRXTimePicker>`
 
+## Versions
+### 1.1.7
+This version included the feature to have two way data binding for the **Time** property using a standardized way `@bind-Time="<your property here>"`
+
+### 1.1.6
+This version included some code improvements and bug fixes
+
+### 1.0.0
+This was the initial version
+
+### Upcoming Features
+[x] Include Bootstrap classes by default
+[ ] Support for 12-hour
+
 ## Contribution & Feedback
 Please feel free to use this component and do not hesitate to open an issue should you encouter any.
 <br/>You are more then welcome to share your feedback with us regarding this component.
