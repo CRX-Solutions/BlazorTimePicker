@@ -59,8 +59,8 @@ This version included some code improvements and bug fixes
 This was the initial version
 
 ### Upcoming Features
-[x] Include Bootstrap classes by default
-[ ] Support for 12-hour
+- [x] Include Bootstrap classes by default
+- [ ] Support for 12-hour
 
 ## Contribution & Feedback
 Please feel free to use this component and do not hesitate to open an issue should you encouter any.
