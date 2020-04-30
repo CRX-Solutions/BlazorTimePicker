@@ -9,10 +9,10 @@ This is a component that will facilitate time picking in a Blazor project. By de
 <div class="@ContainerClass">
     <div class="@RowClass">
         <div class="@ColumnClass">
-           <select class="@SelectClass"></select>
+           <InputSelect class="@SelectClass"></select>
         </div>
         <div class="@ColumnClass">
-           <select class="@SelectClass"></select>
+           <InputSelect class="@SelectClass"></select>
         </div>
     </div>
 </div>
@@ -49,6 +49,12 @@ Setting initial time and minutes interval|`<CRXTimePicker Time="@(new TimeSpan(8
 Two way data binding for Time property|`@code {`<br/>`    private TimeSpan timeTo;`<br/>`}`<br/>`<CRXTimePicker @bind-Time"@timeTo"></CRXTimePicker>`
 
 ## Versions
+### 1.1.9
+Replaced <select> elements with <InputSelect>
+
+### 1.1.8
+Updated package details
+
 ### 1.1.7
 This version included the feature to have two way data binding for the **Time** property using a standardized way `@bind-Time="<your property here>"`
 
