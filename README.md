@@ -50,7 +50,7 @@ Two way data binding for Time property|`@code {`<br/>`    private TimeSpan timeT
 
 ## Versions
 ### 1.1.9
-Replaced <select> elements with <InputSelect>
+Replaced `<select>` elements with `<InputSelect>`
 
 ### 1.1.8
 Updated package details
